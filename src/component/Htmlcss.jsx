@@ -8,10 +8,10 @@ const Html = () => {
       <div className="h-full bg-gray-100 flex justify-center">
         <div className=" w-4/5">
           <div>
-            <p className="text-center text-2xl font-serif font-extrabold">
-              😊💻A Few Html ,Css,Sass,Tailwindcss Project
+            <p className="text-center text-lg sm:text-2xl font-serif font-extrabold">
+             😊💻A Few Html,Css,Sass,Tailwindcss Project
             </p>
-            <p className="text-center font-playfoir text-lg text-gray-600 font-bold">
+            <p className="text-center font-playfoir sm:text-lg text-gray-600 font-bold">
               Happy to share my Though with you 😊
             </p>
           </div>
@@ -21,7 +21,7 @@ const Html = () => {
               <div className="max-w-sm p-6 rounded-lg   dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                   <h5 className="  text-base sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Noteworthy technology acquisitions 2023
+                    Noteworthy Design
                   </h5>
                 </a>
                 <p className="mb-3 text-xs   sm:text-base text-gray-700 dark:text-gray-400">
@@ -73,8 +73,7 @@ const Html = () => {
                     </h5>
                   </a>
                   <p className="mb-3 text-xs   sm:text-base text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far, in reverse chronological order.
+                    Here is the portfolio design with react js.impliment here some dynamamic word
                   </p>
                   <a
                     href="#"
@@ -110,8 +109,7 @@ const Html = () => {
                     </h5>
                   </a>
                   <p className="mb-3 text-xs   sm:text-base text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of
-                    2021 so far,trie to Work here api...
+                    Here is clone of netflix website,tried to Work here api and so on...
                   </p>
                   <a
                     href="#"

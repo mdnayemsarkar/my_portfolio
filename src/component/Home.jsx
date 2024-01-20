@@ -41,14 +41,14 @@ const Front = () => {
     <>
       <div className="grid grid-cols-1 grid-col   md:grid-cols-2 lg:grid-cols-2 mt-[3rem]">
         {/* left side  */}
-        <div className="order-2 sm:order-none flex flex-col pl-24 sm:pl-32 gap-4 mt-10 sm:mt-20 h-64 sm:h-auto md:h-auto">
+        <div className="order-2 sm:order-none flex flex-col pl-16 sm:pl-32 gap-4 mt-10 sm:mt-20 h-64 sm:h-auto md:h-auto">
           <div className="animate-this1 text-2xl font-playfoir font-semibold color-change">
             Nayem Here ! 👋
           </div>
-          <div className="animate-this2 text-4xl font-playfoir font-extrabold">
+          <div className="animate-this2 text-2xl sm:text-4xl font-playfoir font-extrabold">
             Love to Learn New Technology.. <br /> Love to Code..😊
           </div>
-          <div className="animate-this3 text-2xl text-green-500 font-serif font-extrabold">
+          <div className="animate-this3 text-xl sm:text-2xl text-green-500 font-serif font-extrabold">
             Front End Web-Developer
           </div>
           <div className="animate-this5 flex gap-4 cursor-pointer">
@@ -93,7 +93,7 @@ const Front = () => {
         </div>
         {/* right side  */}
         <div className="animate-this7 flex items-center justify-center ">
-          <img src={NS} alt="" className="h-80  sm:mt-0 sm:h-auto  sm:block" />
+          <img src={NS} alt="" className="h-72  sm:mt-0 sm:h-auto  sm:block" />
         </div>
       </div>
     </>

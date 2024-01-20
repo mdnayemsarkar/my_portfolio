@@ -35,9 +35,9 @@ const Teach = () => {
 
   return (
     <>
-      <div className="h-full mt-44 sm:mt-24 sm:mb-16" id="Project">
-        <div className="text-center text-xl sm:text-3xl font-serifv font-extrabold flex justify-center">
-          <img src={Youtube} alt="" className="h-10 pr-4" />
+      <div className="h-full  mt-60 sm:mt-24 sm:mb-16" id="Project">
+        <div className="text-center text-lg sm:text-3xl font-serifv font-extrabold flex justify-center">
+          <img src={Youtube} alt="" className=" h-6 pr-1 sm:h-10 sm:pr-4" />
           Youtube - Teaching - Passion
         </div>
         <div className="flex justify-center">
@@ -115,8 +115,8 @@ const Teach = () => {
           </div>
         </div>
         {/* React Project here */}
-        <div className="text-center text-xl sm:text-3xl font-serifv font-extrabold flex justify-center mt-28">
-          <img src={React} alt="" className="h-10 pr-4" />A Few React Project
+        <div className="text-center text-lg sm:text-3xl font-serifv font-extrabold flex justify-center mt-28">
+          <img src={React} alt="" className="h-6 pr-1 sm:h-10 sm:pr-4" />A Few React Project
           Here..
         </div>
         <div className="flex justify-center">
