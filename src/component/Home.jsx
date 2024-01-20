@@ -41,7 +41,7 @@ const Front = () => {
     <>
       <div className="grid grid-cols-1 grid-col   md:grid-cols-2 lg:grid-cols-2 mt-[3rem]">
         {/* left side  */}
-        <div className="order-2 sm:order-none flex flex-col pl-14 sm:pl-32 gap-4 mt-10 sm:mt-20 h-64 sm:h-auto md:h-auto">
+        <div className="order-2 sm:order-none flex flex-col pl-24 sm:pl-32 gap-4 mt-10 sm:mt-20 h-64 sm:h-auto md:h-auto">
           <div className="animate-this1 text-2xl font-playfoir font-semibold color-change">
             Nayem Here ! 👋
           </div>

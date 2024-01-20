@@ -40,10 +40,13 @@ const Teach = () => {
           <img src={Youtube} alt="" className="h-10 pr-4" />
           Youtube - Teaching - Passion
         </div>
-        <p className="text-sm sm:text-lg mt-2 text-gray-400 font-playfoir font-bold text-center">
-          Never Thought I'll will enjoy teaching this much and want to be a
-          teacher
-        </p>
+        <div className="flex justify-center">
+          <p className="text-sm  w-3/5 sm:w-full sm:text-lg mt-2 text-gray-400 font-playfoir font-bold text-center">
+            Never Thought I'll will enjoy teaching this much and want to be a
+            teacher
+          </p>
+        </div>
+
         {/* courses section  */}
         <div className="flex pl-10 sm:pl-32 mt-16  shadow-sm w-64">
           <div className="h-7 w-1 bg-slate-500  "></div>
@@ -116,10 +119,13 @@ const Teach = () => {
           <img src={React} alt="" className="h-10 pr-4" />A Few React Project
           Here..
         </div>
-        <p className="text-sm pl-3 sm:text-lg mt-2 text-gray-400 font-playfoir font-bold text-center">
-          Never Thought I'll will enjoy teaching this much and want to be a
-          teacher
-        </p>
+        <div className="flex justify-center">
+          {" "}
+          <p className="text-sm w-3/5 sm:w-full pl-3 sm:text-lg mt-2 text-gray-400 font-playfoir font-bold text-center">
+            Never Thought I'll will enjoy teaching this much and want to be a
+            teacher
+          </p>
+        </div>
         <div className="flex pl-10 sm:pl-32 mt-16  shadow-sm  w-96">
           <div className="h-7 w-1 bg-slate-500  "></div>
           <div className="pl-3 text-xl text-green-500 font-playfoir font-bold">
@@ -127,7 +133,7 @@ const Teach = () => {
           </div>
         </div>
         {/* card  */}
-        <div className="flex flex-col justify-center items-center gap-6 sm:flex sm:flex-row sm:justify-evenly mt-10">
+        <div className="flex flex-col justify-center items-center gap-6 sm:grid sm:grid-cols-3 sm:justify-evenly mt-10 sm:p-40">
           <div className=" animate-this1 h-60 w-64 rounded-md shadow-2xl">
             <div className="h-44 w-full ">
               <video controls autoPlay muted className="h-full">
