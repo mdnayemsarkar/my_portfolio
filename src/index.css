@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.color-change {
+  background-image: linear-gradient(90deg, #0656f7ab, #fa0606cc ,rgb(106, 252, 113));
+  background-size: 200% 200%;
+  animation: gradientAnimation 3s ease infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+ul li a:hover{
+  border-bottom: 1px solid blue;
+}
